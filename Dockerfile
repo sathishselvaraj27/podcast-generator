@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN apt-get install && apt-get update -y \
-    python3.10 \
+    python3.13 \
     python3-pip\
     git
 
