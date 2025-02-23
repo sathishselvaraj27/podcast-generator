@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-RUN apt-get install && apt-get update -y \
+RUN apt-get update -y && apt-get install -y \
     python3.13 \
     python3-pip\
     git
